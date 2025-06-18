@@ -1,10 +1,12 @@
+
 # 🌍 Translation Guide
 
 ## Available Languages
-- 🇬🇧 English
-- 🇭🇷 Croatian
-- 🇩🇪 German
 
-## Add Language
+- 🇬🇧 English (100%)  
+- 🇭🇷 Croatian (100%)  
+- 🇩🇪 German (85%)  
 
-Translate base strings in `/i18n/` and update `TRANSLATIONS.md`
+## How to Add New Language
+
+[Include translation instructions]
