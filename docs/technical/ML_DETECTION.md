@@ -2,6 +2,8 @@
 
 ## ML Model Architecture
 
-- TF-IDF vectorization
-- RandomForestClassifier
-- Model saved as `ml_model.pkl`
+[Move all ML-related content here]
+
+## Training Process
+
+[Include training scripts and procedures]
