@@ -1,11 +1,11 @@
 # 📚 FiveM Backdoor Scanner - User Guide
 
 ## Table of Contents
-1. Installation
-2. Basic Usage
-3. Scan Modes
-4. Understanding Results
-5. Troubleshooting
+1. [Installation](#installation)
+2. [Basic Usage](#basic-usage)
+3. [Scan Modes](#scan-modes)
+4. [Understanding Results](#understanding-results)
+5. [Troubleshooting](#troubleshooting)
 
 ## Installation
 
@@ -15,26 +15,25 @@
 - Git
 - 100MB free disk space
 
-### Installation Steps
+### Detailed Installation Steps
 
 ```bash
+# 1. Update system
 sudo apt update
 sudo apt install python3-full python3-venv python3-pip python3-tk
-git clone https://github.com/Nevera-Hard-Rp/-FiveM-Backdoor-Scanner.git
-cd -FiveM-Backdoor-Scanner
+
+# 2. Clone repository
+git clone https://github.com/yourusername/fivem-backdoor-scanner.git
+cd fivem-backdoor-scanner
+
+# 3. Create virtual environment
 python3 -m venv scanner_env
+
+# 4. Activate virtual environment
 source scanner_env/bin/activate
-pip install -r requirements.txt
+
+# 5. Install dependencies
+pip install requests
+
+# 6. Make scanner executable
 chmod +x fivem_scanner_cli.py
-```
-
-## Basic Usage
-
-```bash
-cd /path/to/fivem-backdoor-scanner
-source scanner_env/bin/activate
-./fivem_scanner_cli.py /path/to/resources
-./fivem_scanner_cli.py /path/to/resources --detailed
-./fivem_scanner_cli.py /path/to/resources --quick
-./fivem_scanner_cli.py /path/to/resources -o scan_report.txt -f txt
-```
