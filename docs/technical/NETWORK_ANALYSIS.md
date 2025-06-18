@@ -1,12 +1,11 @@
-# 📡 Network Traffic Analysis
+# 🔍 Digital Forensics Guide
 
-## Real-time Traffic Monitor
+## Evidence Collection Procedure
 
-```python
-# traffic_monitor.py
-import pcapy
-import dpkt
+```bash
+#!/bin/bash
+# collect_evidence.sh
 
-class FiveMTrafficAnalyzer:
-    """Analyze network traffic for FiveM-specific threats"""
-[Include all network analysis content]
+EVIDENCE_DIR="/forensics/$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$EVIDENCE_DIR"
+[Include all forensics procedures]
